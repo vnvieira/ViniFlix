@@ -11,23 +11,12 @@ function App() {
 
      <div>
       <Menu />
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[1].titulo}  
-         url={dadosIniciais.categorias[0].videos[1].url}      
-        />
+
 
       <Carousel
       ignoreFirstVideo
       category={dadosIniciais.categorias[0]}
       />
-      <Carousel
-      category={dadosIniciais.categorias[1]}
-      />
-
-    <Carousel
-      category={dadosIniciais.categorias[2]}
-      />
-
 
     <Footer/>
    </div>
